@@ -1,0 +1,18 @@
+---
+CompileFlags:
+  CompilationDatabase: build
+  Remove:
+    - -Werror
+
+Diagnostics:
+  UnusedIncludes: Strict
+
+Index:
+  Background: Build
+
+InlayHints:
+  Enabled: true
+
+Hover:
+  ShowAKA: true
+...
